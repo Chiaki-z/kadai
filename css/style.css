@@ -103,12 +103,26 @@ nav ul li a:hover {
 /* 「結婚式場のコンセプト」ページ ここまで↑ */
 
 /* 「プランのご案内」ページ ここから↓ */
-/* table thead tr th {
+table, th, td{
+  border: 1px solid ;
+}
+table{
+  border-collapse: collapse;
+}
+th{
+  white-space: nowrap;
+  padding: 10px 30px;
+}
+td{
+  padding: 10px 30px;
+}
+ table thead tr th {
 	background-color: #eee8cc;
 }
 table tbody tr:nth-child(odd) {
 	background-color: #ffffff;
-} */
+} 
+
 /* 「プランのご案内」ページ ここまで↑ */
 
 /* 「ブライダルフェア」ページ ここから↓ */
